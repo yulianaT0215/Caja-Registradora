@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAJA REGISTRADORA</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="contenedor-padre">
+        <div class="desp">
+            <div class="desp-cab">PRODUCTOS ▼</div>
+            <div class="desp-cont">
+                <div class="img-cont">
+                    <div class="img-item">
+                        <p>Producto 1</p>
+                        <img src="/pizza.webp" alt="PIZZA">
+                        <p>$10.00</p>
+                        <button class="btn-seleccionar">Seleccionar</button>
+                    </div>
+                    <div class="img-item">
+                        <p>Producto 2</p>
+                        <img src="/HAMBURGUESA.jfif" alt="HAMBURGUESA">
+                        <p>$15.00</p>
+                        <button class="btn-seleccionar">Seleccionar</button>
+                    </div>
+                    <div class="img-item">
+                        <p>Producto 3</p>
+                        <img src="/AREPA.jfif" alt="Producto 3">
+                        <p>$20.00</p>
+                        <button class="btn-seleccionar">Seleccionar</button>
+                    </div>
+                    <div class="img-item">
+                        <p>Producto 4</p>
+                        <img src="/PERRO.jfif" alt="Producto 4">
+                        <p>$25.00</p>
+                        <button class="btn-seleccionar">Seleccionar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contenedor de selección de producto -->
+        <div class="seleccion-cont" style="display:none;">
+            <h3>Producto Seleccionado</h3>
+            <p id="producto-nombre"></p>
+            <img id="producto-img" src="" alt="Producto Seleccionado" style="width: 100px;">
+            <p id="producto-precio"></p>
+            <label for="cantidad">Cantidad:</label>
+            <input type="number" id="cantidad" min="1" value="1">
+            <button class="btn-comprar">Comprar</button>
+            <button class="btn-borrar">Borrar</button>
+        </div>
+
+        <!-- Contenedor de compras realizadas -->
+        <div id="compras-lista">
+            <h3>Compras Realizadas</h3>
+        </div>
+    </div>
+
+    <script src="/main.js"></script>
+</body>
+</html>
+
+
+
+
+

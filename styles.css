@@ -1,0 +1,136 @@
+/* Fondo de pantalla con color */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3e5f5;
+}
+
+.contenedor-padre {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    border: 1px solid #ccc;
+    padding: 30px;
+    background-color: #c5cae9;
+    width: 80%;
+    max-width: 1200px;
+    border-radius: 10px;
+}
+
+.desp {
+    width: 350px;
+    margin-right: 30px;
+}
+
+.desp-cab {
+    background-color: #f1f1f1;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+}
+
+.desp-cont {
+    display: none;
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+.img-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.img-item {
+    width: 45%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.img-item img {
+    width: 100%;
+    height: auto;
+}
+
+.seleccion-cont, #compras-lista {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.seleccion-cont {
+    background-color: #e0f7fa;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+#compras-lista {
+    background-color: #ffe0b2;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+button {
+    background-color: #00897b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #00695c;
+}
+
+.btn-seleccionar {
+    background-color: #5e35b1;
+}
+
+.btn-seleccionar:hover {
+    background-color: #4527a0;
+}
+
+.btn-borrar, .btn-comprar {
+    margin-top: 10px;
+}
+
+#compras-lista {
+    display: none;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.compra-item {
+    margin-bottom: 20px;
+    border: 1px solid #4a148c;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #ede7f6;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.compra-item img {
+    width: 70px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.compra-item p {
+    margin: 5px 0;
+}
+
+
+
+
+
+
+
+
+
+
